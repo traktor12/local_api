@@ -2,6 +2,12 @@ body {
   margin: 0;
   padding: 0;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  button {
+    border: none;
+    border-radius: 7px;
+    padding: 8px;
+    cursor: pointer;
+  }  
 }
 
 header {
@@ -22,10 +28,11 @@ header {
         99deg,
         rgba(255, 255, 106, 1) 24%,
         rgba(45, 253, 162, 1) 76%
-      );
-      border: none;
-      border-radius: 7px;
-      padding: 8px;
+      ); 
+        border: none;
+        border-radius: 7px;
+        padding: 8px;
+        cursor: pointer;
     }
   }
 }
@@ -33,11 +40,6 @@ main {
   #tasksDiv {
     ul {
       list-style-type: symbols(cyclic "👉🏾" "👉🏼");
-      button {
-        border: none;
-        border-radius: 7px;
-        padding: 8px;
-      }  
       .deleteLi {
         background: rgb(253,29,29);
         background: linear-gradient(99deg, rgba(253,29,29,1) 18%, rgba(252,176,69,1) 78%);  

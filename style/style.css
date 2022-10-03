@@ -4,6 +4,12 @@ body {
   padding: 0;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
+body button {
+  border: none;
+  border-radius: 7px;
+  padding: 8px;
+  cursor: pointer;
+}
 
 header {
   padding: 2px 10px 10px 10px;
@@ -23,15 +29,11 @@ header #addTaskDiv #submitTask {
   border: none;
   border-radius: 7px;
   padding: 8px;
+  cursor: pointer;
 }
 
 main #tasksDiv ul {
   list-style-type: symbols(cyclic "👉🏾" "👉🏼");
-}
-main #tasksDiv ul button {
-  border: none;
-  border-radius: 7px;
-  padding: 8px;
 }
 main #tasksDiv ul .deleteLi {
   background: rgb(253, 29, 29);
