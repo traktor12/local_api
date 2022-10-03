@@ -1,0 +1,43 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+header {
+  padding: 2px 10px 10px 10px;
+  line-height: 2em;
+  background-color: rgb(186, 57, 186);
+  color: rgb(237, 221, 221);
+}
+header #addTaskDiv input[type=text] {
+  background-color: purple;
+  border: none;
+  border-radius: 6px;
+  padding: 8px;
+}
+header #addTaskDiv #submitTask {
+  background: rgb(255, 255, 106);
+  background: linear-gradient(99deg, rgb(255, 255, 106) 24%, rgb(45, 253, 162) 76%);
+  border: none;
+  border-radius: 7px;
+  padding: 8px;
+}
+
+main #tasksDiv ul {
+  list-style-type: symbols(cyclic "👉🏾" "👉🏼");
+}
+main #tasksDiv ul button {
+  border: none;
+  border-radius: 7px;
+  padding: 8px;
+}
+main #tasksDiv ul .deleteLi {
+  background: rgb(253, 29, 29);
+  background: linear-gradient(99deg, rgb(253, 29, 29) 18%, rgb(252, 176, 69) 78%);
+}
+main #tasksDiv ul .updateLi {
+  background: rgb(81, 192, 244);
+  background: linear-gradient(99deg, rgb(81, 192, 244) 5%, rgb(182, 0, 255) 100%);
+}/*# sourceMappingURL=style.css.map */

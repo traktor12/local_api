@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script defer src="api-client.js"></script>
+    <script defer src="database/todo.js" type="module"></script>
+  </head>
+
+  <body>
+    <header>
+      <div id="addTaskDiv">
+        <span>Enter text to make new task or update an existing task</span> </br>
+        <input type="text" name="enterTask" id="enterTask" placeholder="Enter task">    
+        <label  for="enterTask"><input id="submitTask" type="submit" value="Add New 🔼"></label>   
+    </div>
+    </header>
+    <main>  
+        <div id="tasksDiv">
+        </div>
+    </main>
+  </body>
+</html>

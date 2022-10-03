@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+  padding: 2px 10px 10px 10px;
+  line-height: 2em;
+  background-color: rgb(186, 57, 186);
+  color: rgb(237, 221, 221);
+  #addTaskDiv {
+    input[type="text"] {
+      background-color: purple;
+      border: none;
+      border-radius: 6px;
+      padding: 8px;
+    }
+    #submitTask {
+      background: rgb(255, 255, 106);
+      background: linear-gradient(
+        99deg,
+        rgba(255, 255, 106, 1) 24%,
+        rgba(45, 253, 162, 1) 76%
+      );
+      border: none;
+      border-radius: 7px;
+      padding: 8px;
+    }
+  }
+}
+main {
+  #tasksDiv {
+    ul {
+      list-style-type: symbols(cyclic "👉🏾" "👉🏼");
+      button {
+        border: none;
+        border-radius: 7px;
+        padding: 8px;
+      }  
+      .deleteLi {
+        background: rgb(253,29,29);
+        background: linear-gradient(99deg, rgba(253,29,29,1) 18%, rgba(252,176,69,1) 78%);  
+    }
+    .updateLi{ 
+        background: rgb(81,192,244);
+        background: linear-gradient(99deg, rgba(81,192,244,1) 5%, rgba(182,0,255,1) 100%); 
+    }
+    }
+  }
+}
